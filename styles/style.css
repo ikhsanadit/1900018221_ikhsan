@@ -1,0 +1,211 @@
+@media (max-width: 575.98px) {
+    .hello-title{
+        font-size: 5vmin !important;
+        line-height: 7vmin !important;
+    }
+}
+@media (min-width: 992px) { 
+    .navbar{
+        padding: 0;
+        height: 54px;
+    }
+
+    .navbar-nav{
+        padding-left: 25px;
+    }
+
+    .nav-link{
+        color: white !important;
+        margin: 0;
+        transition: all;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in-out;
+        padding: 8px 20px !important;
+    }
+
+    .nav-link:hover{
+        color: #ffbe76 !important;
+    }
+
+    .active{
+        color: #ffbe76 !important;
+    }
+
+    #img-about{
+        filter: grayscale();
+        transition: all;
+        transition-duration: .7s;
+        transition-timing-function: ease-in-out;
+    }
+    
+    #img-about:hover{
+        filter: none;
+        transform: scaleX(-1);
+    }
+
+    .bar-fill{
+        animation: bar-slide 2s;
+        animation-timing-function: ease-in-out;
+    }
+
+    .bar:hover .bar-fill{
+        animation: bar-slide-hover 4s;
+        animation-timing-function: ease-in-out;
+    }
+
+    @keyframes bar-slide{
+        0%{
+            width: 0%;
+        }
+    }
+    @keyframes bar-slide-hover{
+        20%{
+            width: 0%;
+        }
+        60%{
+            width: 100%;
+        }
+    }
+    .sosmed{
+        width: 25% !important;
+        filter: grayscale() !important;
+        transition: all;
+        transition-duration: .7s;
+        transition-timing-function: ease-in-out;
+    }
+    
+    .sosmed:hover{
+        filter: none !important;
+    }
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+section{
+    padding: 50px 0 75px 0 !important;
+}
+
+.jumbotron {
+    background: url(pc.jpg);
+    height: 100vh;
+    padding: 0;
+}
+
+.hello-title{
+    text-transform: uppercase;
+    font-size: 32pt;
+    line-height: 36pt;
+}
+.btn-outline-light, .btn-outline-info, .btn-dark{
+    transition: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.jumbotron .display-4{
+    color: white;
+    text-align: center;
+    font-weight: 250;
+    
+}
+
+.jumbotron .display-4 span{
+    color: #ffbe76;
+    font-weight: 500;
+}
+
+.align-items-center{
+    margin: 0;
+}
+
+.navbar{
+    border-bottom: 3px solid #04c2c9;
+}
+
+.nav-link{
+    text-transform: uppercase;
+}
+
+.navbar-toggler{
+    border: 0;
+}
+
+.bg-about{
+    background-color: #f7f7f7;
+}
+
+.bar{
+    background: #eee;
+}
+
+.bar-fill{
+    background-color: #00A1A7;
+}
+
+.bar-name{
+    background-color: #04C2C9;
+    width: 100px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.prt-img{
+    width: 50%;
+    height: 50%;
+}
+
+.inner{
+    overflow: hidden;
+}
+
+.inner img{
+    transition: all 1s ease-in-out;
+}
+
+.inner:hover img{
+    transform: scale(1.1) !important;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    transition: all 1s ease-in-out !important;
+    background: rgba(19, 15, 64, 0.95);
+}
+.inner:hover .overlay{
+    opacity: 1 !important;
+}
+
+footer{
+    position: relative;
+    display: block;
+}
+
+.sosmed{
+    width: 50%;
+}
+
+.mt-button{
+    position: absolute;
+    top: -20px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.btn-dark:hover{
+    background-color: #14142D;
+    border-color: #14142D;
+}
+
